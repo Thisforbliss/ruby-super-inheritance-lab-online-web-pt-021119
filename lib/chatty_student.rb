@@ -6,7 +6,8 @@ puts "How are you doing today? I'm okay, but I'm kind of tired. Did you watch Th
 end
   
   def raise_hand
-    super
+    10.times do super
     "Pick me!"
   end
+end
 end
